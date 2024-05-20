@@ -1,0 +1,73 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: blue;
+}
+
+/* Navbar Styles */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: right;
+}
+
+#navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Welcome Section Styles */
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+#welcome-section h1 {
+    font-size: 2em;
+    /* color: #333; */
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.project-tile {
+    background-color: #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 0%;
+    flex-grow: 1;
+}
+
+.project-tile {
+    background-color: white;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #333;
+}
+
+#profile-link {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    color: white;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    /* Add your responsive styles here */
+}
